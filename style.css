@@ -4,6 +4,8 @@
 
 .main{
     background-color: rgb(240, 241, 255);
+ 
+    
 }
 li{
     font-size: large;
@@ -19,4 +21,15 @@ li{
 
 .card{
     width: 250px;
+}
+
+.nav{
+    background-color: azure;
+}
+
+@media (min-width: 700)
+{
+    main{
+        margin-top: 20%;
+    }
 }
