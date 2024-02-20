@@ -5,3 +5,18 @@
 .main{
     background-color: rgb(240, 241, 255);
 }
+li{
+    font-size: large;
+    font: bold;
+}
+#resume{
+    height: 1300px;
+}
+
+#myTabContent{
+    margin-top: 100px;
+}
+
+.card{
+    width: 250px;
+}
