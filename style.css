@@ -1,56 +1,75 @@
-.body{
-    background-color: rgba(250, 235, 215, 0.774) !important;
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(117, 231, 231);
 }
 
-.main{
-    background-color: rgb(240, 241, 255);
- 
-    
-}
-li{
+
+li {
     font-size: large;
     font: bold;
 }
-#resume{
+
+#resume {
     height: 1300px;
 }
 
-#myTabContent{
+#myTabContent {
     margin-top: 100px;
 }
 
-.card{
+.card {
     width: 250px;
 }
 
 
 
 .nav {
-    background-color: azure;
+    background-color: rgb(117, 231, 231);
     position: fixed;
     width: 100%;
+    height: 100px;
+    top: 0;
+    padding: 50px;
     z-index: 1;
 }
 
 .tab-content {
-    padding-top: 50px; /* Adjust for the fixed navbar */
+    padding-top: 50px;
+    /* Adjust for the fixed navbar */
 }
 
 .container {
-    padding-top: 100px; /* Adjust for the fixed navbar */
+    padding-top: 100px;
+    /* Adjust for the fixed navbar */
 }
 
 .iframe-container {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
 }
 
 .iframe-container iframe {
     position: absolute;
+
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+iframe {
+    background-color: rgb(117, 231, 231);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: rgba(107, 188, 226, 0.61) !important;
+}
+
+.contacti {
+    align-content: space-between;
+    background-color: rgb(114, 148, 148);
 }
